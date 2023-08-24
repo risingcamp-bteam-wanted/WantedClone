@@ -7,7 +7,8 @@ spring:
 
   datasource:
     platform: mysql
-    url: jdbc:mysql://localhost:3306/ # ??????
-    username:   # ??????
-    password:   # ??????
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/wantedclone?serverTimezone=UTC&characterEncoding=UTF-8 # ??????
+    username:  root # ??????
+    password:  1234  # ??????
+    driver-class-name: com.mysql.cj.jdbc.Driver # mysql 8??
+    # driver-class-name: com.mysql.jdbc.Driver # mysql 5??
